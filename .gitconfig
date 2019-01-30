@@ -1,0 +1,21 @@
+[user]
+	email = your.mail@goeasylive.com
+	name = Anyname butyoursisactuallybetteramiright
+[alias]
+    aliases = !"git config --get-regexp alias"g
+	ci = commit
+	co = checkout
+	st = status -s
+	br = branch
+    l  = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
+    la = !"git l --all"
+    ll = !"echo 'Last 8 commits:'; git la -8"
+    ln = !"echo 'Last 3 hours:'; git la --since='3 hours'"
+[push]
+	default = simple
+[core]
+	editor = "code -w"
+[color]
+	status = always
+[pager]
+	diff = sed \"s/^\\([^-+ ]*\\)[-+ ]/\\\\1/\" | less

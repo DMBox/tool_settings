@@ -1,0 +1,31 @@
+{
+    "git.ignoreLegacyWarning": true,
+    "workbench.colorTheme": "Monokai Dimmed",
+    "trailing-spaces.trimOnSave": true,
+    "window.openFilesInNewWindow": "on",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.min.js": true,
+    },
+    "editor.hover.delay": 700,
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.background" : "#252525",
+        "editorIndentGuide.activeBackground" : "#252525"
+    },
+    "explorer.autoReveal": false,
+    "[elm]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveTimeout": 1500
+    },
+    "editor.multiCursorModifier": "ctrlCmd"
+}
